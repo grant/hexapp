@@ -1,6 +1,14 @@
 $(function () {
 
   /**
+   * Adds a hexagon grid to the DOM
+   * @param {HexagonGrid} hexagonGrid The grid to ask
+   */
+  function addGridToDOM (hexagonGrid) {
+    var hexagons = hexagonGrid.getHexagons();
+  }
+
+  /**
    * A cell point on the hexagon grid
    */
   function Point (x, y) {
@@ -60,5 +68,6 @@ $(function () {
 
   var hexagonGrid = new HexagonGrid();
   hexagonGrid.addHexagon(new Hexagon(), new Point());
-  console.log(hexagonGrid.getHexagons());
+
+  addGridToDOM(hexagonGrid);
 });
