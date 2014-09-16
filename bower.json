@@ -1,0 +1,23 @@
+{
+  "name": "hexapp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/grant/hexapp",
+  "authors": [
+    "Grant Timmerman"
+  ],
+  "description": "A hexagon layout navigator",
+  "main": "build/index.js",
+  "keywords": [
+    "hexagon",
+    "hex",
+    "layout"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
