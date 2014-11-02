@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/grant/hexapp/issues"
   },
-  "homepage": "https://github.com/grant/hexapp"
+  "homepage": "https://github.com/grant/hexapp",
+  "dependencies": {
+    "point2d": "0.0.1",
+    "hexcell": "0.0.2",
+    "hexgrid": "0.0.1"
+  }
 }
