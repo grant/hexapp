@@ -1,7 +1,7 @@
 Hexapp
 ======
 
-A hexagonal organization of apps.
+A hexagonal grid of apps.
 
 ## Setup
 
